@@ -1,0 +1,64 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.bg{
+	width: 100%;
+	height: 590px;
+/*	background-color: blue;*/
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPy9OOsTe18qX4EW8IsAYfIHVjmp_6hdRp9w&usqp=CAU);
+
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.cycle{
+	position: relative;
+	top: 330px;
+	left:0px;
+	animation-name: demo;
+	animation-duration: 6s;
+	animation-iteration-count: 50;
+	animation-delay: 1px;
+}
+
+
+
+/*@keyframes ani{
+	from{position: absolute;left:2px;top:350}
+	to{float:right}
+}*/
+
+@keyframes demo{
+
+	/*0%{position: absolute;left:20px;top:350}
+	20%{position: absolute;left:30px;top:350}
+	20%{position: absolute;left:30px;top:350}
+*/
+
+
+
+	/*0%{position: absolute;left:100px;top:350}
+	10%{position: absolute;left:200px;top:350}
+	20%{position: absolute;left:300px;top:350}
+	30%{position: absolute;left:400px;top:350}
+	40%{position: absolute;left:500px;top:350}
+	50%{position: absolute;left:600px;top:350}
+	60%{position: absolute;left:700px;top:350}
+	70%{position: absolute;left:800px;top:350}
+
+	80%{position: absolute;left:900px;top:350}
+	90%{position: absolute;left:1000px;top:350}
+	100%{position: absolute;left:1250px;top:350}*/
+
+	100%
+	{
+    
+    transform:translateX(1600px);
+
+	}
+
+}
